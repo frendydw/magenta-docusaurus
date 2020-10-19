@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Magenta',
+  title: 'Merchant Solution',
   tagline: '',
   url: 'https://frendydw.github.io',
   baseUrl: '/magenta-docusaurus/',
@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'magenta-docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Magenta',
+      title: '',
       logo: {
         alt: 'Magenta Logo',
         src: 'img/logo-magenta-2.png',
@@ -37,45 +37,57 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Merchant',
+          title: 'Internal',
           items: [
             {
-              label: 'Merchant Configuration',
+              label: 'Magenta',
               to: 'docs/merchant-configuration',
             },
             {
-              label: 'Merchant Management',
-              to: 'docs/merchant-management/',
+              label: 'Merchant Hotline',
+              to: 'docs/merchant-case-management/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Middle',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Single Sign On User Module  ',
+              to: 'docs/single-sign-on-user-module/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'API Proxy',
+              to: 'docs/api-proxy/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Notif Gateaway',
+              to: 'docs/notif-gateaway/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'External',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Merchant Service BCA',
+              to: 'docs/merchant-service-bca/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Merchant Portal',
+              to: 'docs/merchant-portal/',
+            },
+            {
+              label: 'QR Merchant Service',
+              to: 'docs/qr-merchant-service/',
+            },
+            {
+              label: 'Email Services',
+              to: 'docs/email-services/',
+            },
+            {
+              label: 'Merchant API',
+              to: 'docs/merchant-api/',
             },
           ],
         },
