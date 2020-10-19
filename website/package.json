@@ -11,12 +11,14 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
+    "@babel/core": "^7.12.3",
     "@docusaurus/core": "2.0.0-alpha.65",
     "@docusaurus/preset-classic": "2.0.0-alpha.65",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-router": "^5.2.0"
   },
   "browserslist": {
     "production": [
@@ -29,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "url-loader": "^4.1.1"
   }
 }
