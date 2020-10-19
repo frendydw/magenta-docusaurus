@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Merchant Solution & Support',
+  title: 'Magenta',
   tagline: '',
   url: 'https://frendydw.github.io',
   baseUrl: '/magenta-docusaurus/',
