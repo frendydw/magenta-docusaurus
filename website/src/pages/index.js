@@ -72,8 +72,24 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/merchant-configuration')}>
-              Get Started
+              Internal
             </Link>
+              <Link
+                  className={clsx(
+                      'button button--outline button--secondary button--lg',
+                      styles.getStarted,
+                  )}
+                  to={useBaseUrl('docs/single-sign-on-user-module')}>
+                  Middle
+              </Link>
+              <Link
+                  className={clsx(
+                      'button button--outline button--secondary button--lg',
+                      styles.getStarted,
+                  )}
+                  to={useBaseUrl('docs/merchant-service-bca')}>
+                  External
+              </Link>
           </div>
         </div>
       </header>
