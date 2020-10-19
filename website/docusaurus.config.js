@@ -1,30 +1,34 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Magenta',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-magenta-2.png',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Magenta',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Magenta Logo',
+        src: 'img/logo-magenta-2.png',
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/merchant-configuration',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Merchant Solution',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'blog/',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'Theme',
           position: 'right',
         },
       ],
