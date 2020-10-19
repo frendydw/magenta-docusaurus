@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Magenta',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://frendydw.github.io',
+  baseUrl: '/magenta-docusaurus/',
   onBrokenLinks: 'throw',
   favicon: 'img/logo-magenta-2.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'frendydw', // Usually your GitHub org/user name.
+  projectName: 'magenta-docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Magenta',
@@ -37,15 +37,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Merchant',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Merchant Configuration',
+              to: 'docs/merchant-configuration',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Merchant Management',
+              to: 'docs/merchant-management/',
             },
           ],
         },
