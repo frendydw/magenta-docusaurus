@@ -8,32 +8,43 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Internal',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          <a href={'docs/merchant-configuration'}>Magenta</a>
+          <br/>
+          <a href={'docs/merchant-case-management'}>Magenta Hotline</a>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Middle',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          <a href={'docs/single-sign-on-user-module'}>Single Sign On User Module</a>
+          <br/>
+          <a href={'docs/api-proxy'}>API Proxy</a>
+          <br/>
+          <a href={'docs/notif-gateaway'}>Notif Gateaway</a>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'External',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          <a href={'docs/merchant-service-bca'}>Merchant Service BCA</a>
+          <br/>
+          <a href={'docs/merchant-portal'}>Merchant Portal</a>
+          <br/>
+          <a href={'docs/qr-merchant-service'}>QR Merchant Service</a>
+          <br/>
+          <a href={'docs/email-services'}>Email Services</a>
+          <br/>
+          <a href={'docs/merchant-api'}>Merchant API</a>
       </>
     ),
   },
