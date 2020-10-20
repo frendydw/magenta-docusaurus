@@ -77,30 +77,30 @@ function Home() {
           <h1 className="hero__title">Merchant Solution & Support</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/merchant-configuration')}>
-              Internal
-            </Link>
-              <Link
-                  className={clsx(
-                      'button button--outline button--secondary button--lg',
-                      styles.getStarted,
-                  )}
-                  to={useBaseUrl('docs/single-sign-on-user-module')}>
-                  Middle
-              </Link>
-              <Link
-                  className={clsx(
-                      'button button--outline button--secondary button--lg',
-                      styles.getStarted,
-                  )}
-                  to={useBaseUrl('docs/merchant-service-bca')}>
-                  External
-              </Link>
+            {/*<Link*/}
+            {/*  className={clsx(*/}
+            {/*    'button button--outline button--secondary button--lg',*/}
+            {/*    styles.getStarted,*/}
+            {/*  )}*/}
+            {/*  to={useBaseUrl('docs/merchant-configuration')}>*/}
+            {/*  Internal*/}
+            {/*</Link>*/}
+            {/*  <Link*/}
+            {/*      className={clsx(*/}
+            {/*          'button button--outline button--secondary button--lg',*/}
+            {/*          styles.getStarted,*/}
+            {/*      )}*/}
+            {/*      to={useBaseUrl('docs/single-sign-on-user-module')}>*/}
+            {/*      Middle*/}
+            {/*  </Link>*/}
+            {/*  <Link*/}
+            {/*      className={clsx(*/}
+            {/*          'button button--outline button--secondary button--lg',*/}
+            {/*          styles.getStarted,*/}
+            {/*      )}*/}
+            {/*      to={useBaseUrl('docs/merchant-service-bca')}>*/}
+            {/*      External*/}
+            {/*  </Link>*/}
           </div>
         </div>
       </header>

@@ -37,59 +37,58 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Internal',
+          title: 'Merchant Solution',
           items: [
             {
-              label: 'Magenta',
-              to: 'docs/merchant-configuration',
+              label: 'Blueprint',
+              to: 'docs/merchant-configuration'
             },
             {
-              label: 'Merchant Hotline',
-              to: 'docs/merchant-case-management/',
+              label: 'Business Flow',
+              to: 'docs/merchant-configuration'
             },
+            {
+              label: 'Appendix',
+              to: 'docs/merchant-configuration'
+            }
           ],
         },
         {
-          title: 'Middle',
+          title: 'Infrastructure',
           items: [
             {
-              label: 'Single Sign On User Module  ',
-              to: 'docs/single-sign-on-user-module/',
+              label: 'Server',
+              to: 'docs/merchant-configuration'
             },
             {
-              label: 'API Proxy',
-              to: 'docs/api-proxy/',
+              label: 'Database',
+              to: 'docs/merchant-configuration'
             },
             {
-              label: 'Notif Gateaway',
-              to: 'docs/notif-gateaway/',
-            },
+              label: 'API',
+              to: 'docs/merchant-configuration'
+            }
           ],
         },
         {
-          title: 'External',
+          title: 'Learn',
           items: [
             {
-              label: 'Merchant Service BCA',
-              to: 'docs/merchant-service-bca/',
+              label: 'Quick Start',
+              to: 'docs/merchant-configuration'
             },
             {
-              label: 'Merchant Portal',
-              to: 'docs/merchant-portal/',
+              label: 'Guides',
+              to: 'docs/merchant-configuration'
             },
             {
-              label: 'QR Merchant Service',
-              to: 'docs/qr-merchant-service/',
-            },
-            {
-              label: 'Email Services',
-              to: 'docs/email-services/',
-            },
-            {
-              label: 'Merchant API',
-              to: 'docs/merchant-api/',
-            },
+              label: 'Blog',
+              to: 'blog'
+            }
           ],
+        },
+        {
+          title: 'Contact Us',
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
