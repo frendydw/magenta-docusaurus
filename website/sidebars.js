@@ -4,7 +4,7 @@ module.exports = {
           {
               Internal: [
                   {
-                      Magenta: [
+                      'Magenta': [
                           'merchant-configuration',
                           'merchant-management',
                           'merchant-transaction-data-and-reporting',
